@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+   
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: sandybrown;
+    position: fixed;
+    top: 0;
+    width: 200%;
+}
+
+.nav-item {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 100px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.nav-item:hover {
+    background-color: white;
+    color: black;
+}
+
+.about-container {
+    max-width: 500px;
+    margin: 100px 20px;
+    background-color:blanchedalmond;
+    padding: 20px;
+    border-radius: 15px;
+   
+}
+
+body.menuimg {
+    background-image: url('menu.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 600px;
+}
+
+body.aboutimg {
+    background-image: url('about.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body.homeimg {
+    background-image: url('home.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+body.contactimg {
+    background-image: url('contact.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
